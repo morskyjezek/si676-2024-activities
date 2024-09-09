@@ -21,6 +21,16 @@ Download the GitHub repo with sample files (as demonstrated in class), and then 
 10. Delete the `info.txt` file in the sample2 directory
 11. Delete the `Michigan` directory.
 
+## Additional Activity
+
+We worked through three fundamental Git processes in class:
+
+* Create a Git repo (`git init`), which you should only run in a new directory, or a directory that you want to connect to a GitHub project, which creates (or "initializes") a new Git repository
+* Update a git repo (`add` --> `commit`), which moves changes into the staging area and then adds them into your Git log and repo record
+* Push/pull a git repo (`push` and `pull`), which moves local changes to your remote repository (in our case on GitHub though it needn't always be)
+
+For next week, aim to make sure you can create local repositories, connect them to a remote, and push changes to that remote.
+
 ## Resources
 
 * [Accompanying slides][slides]
