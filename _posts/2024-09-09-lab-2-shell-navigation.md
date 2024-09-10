@@ -10,7 +10,7 @@ categories: activities shell labs
 Download the GitHub repo with sample files (as demonstrated in class), and then provide the shell commands that you would use to accomplish the following. Assume that command one begins when you are located in the directory called data. Note that the directory "data" should already exist in the repo files that you have downloaded from GitHub (it does contain some files and directories, but you will not need those for this exercise.)
 
 1. Create the directory structure shown above, in the “data” folder (hint: to make this task less onerous, check out the man page for the `mkdir` command that allows you to make parents of a directory that don’t exist yet).
-2. Create an empty file `info.txt` in the Michigan directory and the Idaho directory.
+2. Create an `info.txt` file in the Michigan directory with the text "This is Michigan" and another in the Idaho directory with the text "This is Idaho".
 3. Change your working directory to the Idaho directory.
 4. Copy the `info.txt` file to the Montana and Louisiana directories.
 5. Move the `info.txt` file in the Michigan directory to the `sample2` directory.
