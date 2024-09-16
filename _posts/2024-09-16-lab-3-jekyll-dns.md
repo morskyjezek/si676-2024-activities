@@ -40,9 +40,9 @@ _Note: work on this over the next two weeks (due Sep 29)_
 
 ## DNS Questions
 
-1. Use the `dig` command to query `si.umich.edu`. What is the response and how would you explain it?
-2. Use the `dig` command to query `si.umich.edu`. What is the command to return only the "answer" section of the response?  
-3. Use the command for the above response, and pipe the output to a file named `mysite-dns-record.txt` (where UNIQNAME is your uniqname). Provide the command and the text file.
+1. Use the `dig` command to query `umich.edu`. What is the response and how would you explain it?
+3. Use the command for the above response, and pipe the output to a file named `umich-dns-record.txt`. Provide the text file.
+2. Use the `dig` command to query `umich.edu`. What is the command to return only the "answer" section of the response?  
 
 ## Bonus
 
