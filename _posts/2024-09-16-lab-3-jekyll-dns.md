@@ -8,15 +8,25 @@ categories: activities web dns jekyll serverless labs
 
 This page contains the questions for Lab 03: DNS and Jekyll
 
-## GitHub Pages & Jekyll Tasks
+## GitHub Pages
 
 1. Set up a new GitHub repository and connect it to a repo on your local machine. Suggested name: `test-site-1` (or something similar)
 2. Activate GitHub pages: [https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
 3. Add a `README.md` (if you haven't already) and `index.html` so there is information in the repo, and also a published page; for this week, provide URL to repo and to published site
+  * HINT: When you add an `index.html` file, put some text in it, like `Testing, Testing, 1, 2, 3, . . . ` otherwise you will get a blank page on your new site. 
 
-### Over the next two weeks (due Sep 30)
+## Jekyll
 
-4. Initiate Jekyll in your local repo and publish your first serverless site (more details in online assignment): [https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll)
+_Note: work on this over the next two weeks (due Sep 30)_
+
+1. Initiate Jekyll in your local repo and publish your first serverless site (more details in online assignment): [https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll)
+
+### Jekyll Resources
+
+* How to Install Jekyll (locally), [https://jekyllrb.com/docs/installation/](https://jekyllrb.com/docs/installation/)
+* Ruby 101 (as much as you need to know), [https://jekyllrb.com/docs/ruby-101/](https://jekyllrb.com/docs/ruby-101/)
+
+* Information on using Jekyll with GitHub pages, [https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll)
 
 ## DNS Questions
 
