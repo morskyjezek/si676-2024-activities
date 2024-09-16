@@ -26,6 +26,8 @@ _Note: work on this over the next two weeks (due Sep 29)_
   * Visit the `_config.yml` file, change the site name, description, and contact information.
   * Add at least one page (preferably modify the main home page or add another): [https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-content-to-your-github-pages-site-using-jekyll#adding-a-new-page-to-your-site](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-content-to-your-github-pages-site-using-jekyll#adding-a-new-page-to-your-site)
   * Add at least one "post" (more like a blog site): [https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-content-to-your-github-pages-site-using-jekyll#adding-a-new-post-to-your-site](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-content-to-your-github-pages-site-using-jekyll#adding-a-new-post-to-your-site)
+4. Please add GitHub user @jesseajohnston to your repo as a collaborator. 
+5. To complete the assignment, please provide the URL to the live Jekyll site with your changes.
 
 ### Jekyll Resources
   
