@@ -10,6 +10,8 @@ This page contains the questions for Lab 03: DNS and Jekyll
 
 ## GitHub Pages
 
+_NOTE: There's not really anything to turn in for this section. Hopefully you worked through these first steps in class._
+
 1. Set up a new GitHub repository and connect it to a repo on your local machine. Suggested name: `test-site-1` (or something similar)
 2. Activate GitHub pages: [https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
 3. Add a `README.md` (if you haven't already) and `index.html` so there is information in the repo, and also a published page; for this week, provide URL to repo and to published site
