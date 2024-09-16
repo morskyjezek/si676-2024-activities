@@ -17,7 +17,7 @@ This page contains the questions for Lab 03: DNS and Jekyll
 
 ## Jekyll
 
-_Note: work on this over the next two weeks (due Sep 30)_
+_Note: work on this over the next two weeks (due Sep 29)_
 
 1. Initiate Jekyll in your local repo.
   * GitHub "[Create site with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll)" - choose options for your operating system!
