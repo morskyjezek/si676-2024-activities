@@ -23,7 +23,7 @@ Download the GitHub repo with sample files (as demonstrated in class), and then 
 
 ## Additional Activity
 
-We worked through three fundamental Git processes in class:
+We worked through three fundamental Git processes in class. Review these and bring questions for discussion next week.
 
 * Create a Git repo (`git init`), which you should only run in a new directory, or a directory that you want to connect to a GitHub project, which creates (or "initializes") a new Git repository
 * Update a git repo (`add` --> `commit`), which moves changes into the staging area and then adds them into your Git log and repo record
