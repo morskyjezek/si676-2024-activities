@@ -10,5 +10,5 @@ This page lists the lab activities:
 
 | Title and Link | Due Date |
 | ------ | ------ |
-{% for lab in labs_list %}| [{{ lab.title }}]({{ lab.url }}) | {{ lab.due | date: "%e %B %Y" | lstrip }} |
+{% for lab in labs_list %}| [{{ lab.title }}]({{ site.url }}{{ lab.url }}) | {{ lab.due | date: "%e %B %Y" | lstrip }} |
 {% endfor %}
