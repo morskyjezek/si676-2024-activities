@@ -35,4 +35,4 @@ This page contains the questions for Lab 03: DNS and Jekyll
 * [Assignment page on canvas][canvas-link]
 
 [slides]: https://docs.google.com/presentation/d/1iSu3lnByhIsORFVL93oMJ-zAog23SaKpj_bo5VA4V70/edit?usp=sharing
-[canvas-link]: 
+[canvas-link]: https://umich.instructure.com/courses/698670/assignments/2472580
