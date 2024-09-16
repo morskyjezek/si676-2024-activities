@@ -2,6 +2,8 @@
 layout: post
 title:  "Lab 3: DNS and A Jekyll Static Site"
 date:   2024-09-16
+assigned: 2024-09-16
+due: 2024-09-29
 categories: activities web dns jekyll serverless labs
 ---
 
