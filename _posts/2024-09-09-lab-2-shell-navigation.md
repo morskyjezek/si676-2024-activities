@@ -2,6 +2,7 @@
 layout: post
 title:  "Lab 2: File Navigation in the Shell"
 date:   2024-09-09
+due: 2024-09-15
 categories: activities shell labs
 ---
 
