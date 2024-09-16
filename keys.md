@@ -7,6 +7,8 @@ permalink: /keys/
 This page lists the key to the lab activities:
 
 {% assign keys_list = site.posts | where: "categories", "keys" %}
-{% for key in keys_list %}
-* [{{ key.title }}]({{ key.url }}) Assigned: {{ key.date | date: "%e %B %Y" | lstrip }}
+
+| Title and Link | Assigned Date | Due Date |
+| ------ | ------ | ------ |
+{% for key in keys_list %}| [{{ key.title }}]({{ key.url }}) | {{ key.assigned | date: "%e %B %Y" | lstrip }} | {{ key.due | date: "%e %B %Y" | lstrip }} |
 {% endfor %}

@@ -1,12 +1,14 @@
 ---
 layout: page
-title: Labs
+title: Lab Questions
 permalink: /labs/
 ---
 
 This page lists the lab activities:
 
 {% assign labs_list = site.posts | where: "categories", "labs" %}
-{% for lab in labs_list %}
-* [{{ lab.title }}]({{ lab.url }}) {{ lab.date | date: "%e %B %Y" | lstrip }}
+
+| Title and Link | Due Date |
+| ------ | ------ |
+{% for lab in labs_list %}| [{{ lab.title }}]({{ lab.url }}) | {{ lab.due | date: "%e %B %Y" | lstrip }} |
 {% endfor %}
