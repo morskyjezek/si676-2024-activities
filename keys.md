@@ -10,5 +10,5 @@ This page lists the key to the lab activities:
 
 | Title and Link | Assigned Date | Due Date |
 | ------ | ------ | ------ |
-{% for key in keys_list %}| [{{ key.title }}]({{ site.url }}{{ key.url }}) | {{ key.assigned | date: "%e %B %Y" | lstrip }} | {{ key.due | date: "%e %B %Y" | lstrip }} |
+{% for key in keys_list %}| [{{ key.title }}]({{ key.url | relative_url }}) | {{ key.assigned | date: "%e %B %Y" | lstrip }} | {{ key.due | date: "%e %B %Y" | lstrip }} |
 {% endfor %}
