@@ -17,7 +17,7 @@ These are all described at the Jekyll documentation under "[Requirements](https:
 
 This step installs Jekyll and also installs the "bundler," which helps create and serve the site later. If you have already done this, you don't need to do it again.
 
-```terminal
+```
 gem install jekyll bundler
 ```
 
@@ -43,13 +43,13 @@ or by creating new markdown or HTML files.
 
 To test your site and "serve" it locally, use the serve command from the terminal:
 
-```terminal
+```
 bundle exec jekyll serve
 ```
 
 If things are working well, you should see something like this print on your terminal window:
 
-```terminal
+```
       Generating... 
        Jekyll Feed: Generating feed for posts
                     done in 0.19 seconds.
