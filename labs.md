@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lab Questions
+title: Labs
 permalink: /labs/
 ---
 
