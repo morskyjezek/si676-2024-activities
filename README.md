@@ -17,4 +17,4 @@ which are organized and created by the site creator to
 provide content and structure for an HTML site that
 is published to the Web.
 
-The site is published at https://morskyjezek.github.io/si676-assignments-2024/.
+The site is published at https://morskyjezek.github.io/si676-2024-activities/.
