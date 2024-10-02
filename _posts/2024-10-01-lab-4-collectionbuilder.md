@@ -25,7 +25,7 @@ unless you want to experiment with adding objects and metadata of your own.
 
 ## Resources
 
-* [Jekyll Guide]({% link _posts/2024-09-27-jekyll.starter.guide.md %})
+* [Jekyll Guide]({% link _posts/2024-09-27-jekyll-starter-guide.md %})
 * [Assignment page on canvas][canvas-link]
 
 [canvas-link]: https://umich.instructure.com/courses/698670/assignments/2512777
