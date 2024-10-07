@@ -51,6 +51,11 @@ Even so, there are a few specialized fields that aid CollectionBuilder in managi
 
 For the most part, individual elements are optional. Notice that as more information is provided, the item page will expand to fit those elements. If you require additional elements for items, then it will be necessary to modify the item page display layouts and other modifications.
 
+## Creating Digital Objects
+
+CollectionBuilder requires pre-loaded access copies of various resolutions.
+Although this could be managed by hand, the framework includes a small version and thumbnail copy generator. Information about this can be found on the [Creating Digital Derivatives](https://collectionbuilder.github.io/cb-docs/docs/walkthroughs/derivatives-walkthrough/) walkthrough.
+
 ## Useful Links
 
 While this page will provide some insight on frequently asked questions,
