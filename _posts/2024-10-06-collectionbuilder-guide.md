@@ -49,7 +49,7 @@ Even so, there are a few specialized fields that aid CollectionBuilder in managi
 | image_alt_text | N | N | Should be provided for accessibility purposes; provides a text description of the associated image |
 | object_transcript | N | N | Should be provided for items that have transcribed text, such as oral histories, or handwritten items |
 
-Few of the fields are required. Notice that as more information is provided, the item page will expand to fit those elements. If you require additional elements for items, then it will be necessary to modify the item page display layouts and other modifications.
+For the most part, individual elements are optional. Notice that as more information is provided, the item page will expand to fit those elements. If you require additional elements for items, then it will be necessary to modify the item page display layouts and other modifications.
 
 ## Useful Links
 
