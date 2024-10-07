@@ -8,7 +8,7 @@ categories: activities web jekyll collectionbuilder labs
 ---
 
 
-This page contains the information for {{ post.title }}
+This page contains the information for {{ page.title }}
 
 This assignment is similar to last week.
 First, you will need to set up a new repo, make sure it works with Jekyll,
