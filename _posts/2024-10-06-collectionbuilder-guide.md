@@ -28,19 +28,19 @@ Even so, there are a few specialized fields that aid CollectionBuilder in managi
 | ------     | ------    | ------            | ------ |
 | objectid   | Y         | N                 | Must match the name of any associated digital files |
 | title      | N         | Y                 | A title for the resource |
-| creator | N | Y 
-| date | N | Y
-| description | N | Y
-| subject | N | Y
+| creator    | N         | Y                 | An entity responsible for making the resource |
+| date       | N         | Y                 | A date assocationed with the resource |
+| description | N        | Y                 | An account of the resource |
+| subject     | N        | Y                 | 	A topic of the resource |
 | location | N | Y | A spatial region or named place. Extended DC element [location](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/Location/). |
 | latitude | N | N | Can be provided if you want the item to appear on the mapping page |
 | longitude | N | N | Can be provided if you want the item to appear on the mapping page |
 | source | N | Y | A related resource from which the described resource is derived. Extended DC element [source](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/source/) |
 | identifier | N | Y | An unambiguous reference to the resource within a given context. Typically something like an ISBN, DOI, URN, or local unique identifier. DublinCore term [identifier](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/identifier/) |
-| type | N | Y | |
-| format | N | Y | |
-| language | N | Y | |
-| rights | N | Y
+| type       | N | Y | The nature or genre of the resource |
+| format     | N | Y | The file format, physical medium, or dimensions of the resource |
+| language   | N | Y | A language of the resource |
+| rights     | N | Y | Information about rights held in and over the resource |
 | rightsstatement | N | N | Use to provide a non-literal value that explains the rights statement. Typicaly URIs may be for Creative Commons License or rightsstatements.org |
 | display_template | N | N | A CollectionBuilder specific field that can direct how an object is displayed; useful for specialized media types like pdfs, audio, or video items |
 | object_location | Y | N | This field should provide a path to the associated digital file(s), must be provided if a surrogate is to appear |
