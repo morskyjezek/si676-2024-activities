@@ -30,7 +30,7 @@ Find the pages for the following item URIs, identify the LCCN, and provide the m
 ### 2. Retrieve JSON data for items
 
 The `loc.gov` website allows for responses to be requested in a data format, like JSON.
-Using the same three items as above, write a block of Python code using the `requests` library that will request and retrieve the data about the items above, then save them in local files.
+Using the same three items as above, write a block of Python code using the `requests` library that will request and retrieve the JSON data about the items above, then save them in local JSON files.
 
 ### 3. Use a different parameter
 
