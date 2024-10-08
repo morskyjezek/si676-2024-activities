@@ -30,15 +30,19 @@ Find the pages for the following item URIs, identify the LCCN, and provide the m
 ### 2. Retrieve JSON data for items
 
 The `loc.gov` website allows for responses to be requested in a data format, like JSON.
-Using the same three items as above, request and restrieve the data about the items and save them in local files.
+Using the same three items as above, write a block of Python code using the `requests` library that will request and retrieve the data about the items above, then save them in local files.
 
 ### 3. Use a different parameter
 
-Assume that the LOC website can also receive search requests as a parameter.
-This parameter is `q` for "query".
-Create a Python script that asks for a query string as an input,
-then append that query to a URI, send the request using python requests,
-and return the results. The script should print out the results to the terminal.
+Assume that the LOC website that can receive search requests as a parameter has a base URL of `https://www.loc.gov/search`.
+A search query can be automatically sent to this URL if you provide the variable `q` for "query".
+Create a short block of Python script that queries the base URL.
+Use the `input()` function so the code will ask the user for a unique query,
+save that query as a string that will be inserted into the URI request as a parameter,
+send the request using python requests,
+and return the results. 
+The script should print out the results to the terminal.
+(In a production environment you would likely want to display such results in a browser or perhaps save them in a JSON file.)
 
 ## Part Two: Adding Content to Your CB Collection Site
 
