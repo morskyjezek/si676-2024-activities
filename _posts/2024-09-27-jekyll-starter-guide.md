@@ -83,4 +83,4 @@ Copy and paste the server address (above, `https://127.0.0.1:4000/`) into a brow
 
 * See [Lab 3][related-lab]
 
-[related-lab]: lab-3-jekyll-dns/
+[related-lab]: {{ site.url }}/posts/lab-3-jekyll-dns
