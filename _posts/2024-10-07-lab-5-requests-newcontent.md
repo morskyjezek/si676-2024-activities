@@ -100,8 +100,8 @@ To do this, you may use the [sample CSV template provided in the course data rep
 
 ## Resources
 
-* [Collection Builder Guide]({% link _posts/2024-10-06-collectionbuilder-guide.md %})
-* [Jekyll Guide]({% link _posts/2024-09-27-jekyll-starter-guide.md %})
+* [Collection Builder Guide]({{ site.url }}{% link _posts/2024-10-06-collectionbuilder-guide.md %})
+* [Jekyll Guide]({{ site.url }}{% link _posts/2024-09-27-jekyll-starter-guide.md %})
 * [Assignment page on canvas][canvas-link]
 
 [canvas-link]: https://umich.instructure.com/courses/698670/assignments/2515067
