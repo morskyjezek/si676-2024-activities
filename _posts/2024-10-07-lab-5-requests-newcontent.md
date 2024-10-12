@@ -11,7 +11,7 @@ categories: activities web collectionbuilder http requests python jekyll labs
 This page contains the information for *{{ page.title }}*.
 
 **Note:** for the following questions that request Python code as your response,
-you may provide or share a link to a `.py` file or a Jupyter notebook (the file extension for notebooks is `.ipynb`.)
+you may provide or share a link to a `.py` file or a Jupyter notebook (`.ipynb` is the file extension for notebooks.)
 
 ## Part One: Python Requests Lab
 
