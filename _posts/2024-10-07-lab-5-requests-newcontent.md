@@ -110,5 +110,5 @@ To do this, you may use the [sample CSV template provided in the course data rep
 * [Assignment page on canvas][canvas-link]
 
 [canvas-link]: https://umich.instructure.com/courses/698670/assignments/2515067
-[csv-template]: https://github.com/morskyjezek/si676-2024-data/blob/main/cb-metadata-template.csv
+[csv-template]: https://github.com/morskyjezek/si676-2024-data/blob/main/collection-project/cb-metadata-template.csv
 [sample-item-page]: https://morskyjezek.github.io/cb-test-turbo-octo-sniffle/items/nc_047.html
