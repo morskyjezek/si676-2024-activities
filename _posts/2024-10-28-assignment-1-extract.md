@@ -43,6 +43,7 @@ once you locate this information, identify how many items are in the set,
 and save the `image`, `link`, and `title` values for each item
 to a new CSV file titled `ftu-libraries-set-list.csv`.
 You will use this file as a reference for your collection list.
+(If you want to see how this might look, here's a sample version: [Sample Collection List CSV file][sample-collection-list-csv] - GitHub will display a formatted table, but to see how this looks as a CSV in plain text format, click the "Raw" format button.)
 
 Hint: the "Free to Use Libraries" set should contain sixty two (62) items.
 
