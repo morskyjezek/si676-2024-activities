@@ -5,9 +5,10 @@ date:   2024-10-28
 assigned: 2024-10-28
 due: 2024-11-08
 categories: activities assignments
+canvas-link: https://umich.instructure.com/courses/698670/assignments/2472574
 ---
 
-This page contains the information for *{{ page.title }}*.
+This page contains the information for *{{ page.title }}* [Canvas link]({{ page.canvas-link }}).
 
 In this step of the course project to build multiple collections platforms,
 you are working to extract data for your collection sites.
@@ -92,12 +93,11 @@ and a directory with JSON item files representing each item in the collection.
 
 ### Resources
 
-* [Assignment description on Canvas][canvas-link]
+* [Assignment submission on Canvas]({{ page.canvas-link }})
 * [Example pulling a collection list from loc.gov][loc-gov-collection-list-demo]
 * [Sample Collection List CSV][sample-collection-list-csv]
 * [Example harvesting JSON item data from loc.gov][loc-gov-item-demo]
 
-[canvas-link]: https://umich.instructure.com/courses/698670/assignments/2472574
 [loc-gov-collection-list-demo]: https://github.com/morskyjezek/si676-2024-data/blob/main/examples/assignment-extract-1-collection-list.ipynb
 [sample-collection-list-csv]: https://github.com/morskyjezek/si676-2024-data/blob/main/collection-project/collection_set_list-sample.csv
 [loc-gov-item-demo]: http://TBD
