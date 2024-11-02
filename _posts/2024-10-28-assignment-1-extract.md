@@ -87,7 +87,7 @@ and a directory with 62 JSON files[^1] representing each item in the collection.
 * [Example pulling a collection list from loc.gov][loc-gov-collection-demo]
 * [Example harvesting JSON item data from loc.gov][loc-gov-item-demo]
 
-[canvas-link]: https://umich.instructure.com/courses/698670/assignments/2515067
+[canvas-link]: https://umich.instructure.com/courses/698670/assignments/2472574
 [loc-gov-collection-demo]: http://TBD
 [loc-gov-item-demo]: http://TBD
 
