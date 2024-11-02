@@ -75,7 +75,12 @@ collection-data
     └── item-sixty-two.json
 ```
 
-Your submission should be a zip file that contains the extracted material in a directory.
+#### Two Submission Options
+
+**Option One:** a link to a GitHub repository where you have created the code and saved the files.
+It may be a private repo, as long as you have added the instructor as a collaborator with view permissions.
+
+**Option Two:** a zip file, uploaded on Canvas, that contains the extracted material in a directory.
 These should all be in a directory containing python code in a `.py` or `.ipynb` file(s),
 a list of the items in the collection in a JSON file,
 the basic information for each item in the collection in a CSV file,
