@@ -94,8 +94,8 @@ and a directory with JSON item files representing each item in the collection.
 ### Resources
 
 * [Assignment submission on Canvas]({{ page.canvas-link }})
-* [Example pulling a collection list from loc.gov][loc-gov-collection-list-demo]
 * [Sample Collection List CSV][sample-collection-list-csv]
+* [Example pulling a collection list from loc.gov][loc-gov-collection-list-demo]
 * [Example harvesting JSON item data from loc.gov][loc-gov-item-demo]
 
 [loc-gov-collection-list-demo]: https://github.com/morskyjezek/si676-2024-data/blob/main/examples/assignment-extract-1-collection-list.ipynb
