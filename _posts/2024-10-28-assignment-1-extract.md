@@ -77,6 +77,9 @@ collection-data
 
 #### Two Submission Options
 
+**Note:** while the set has sixty two items, it may not be possible to harvest each item's metadata.
+In that case, you can skip problematic items. But you should get the majority, at least fifty five or more items.[^1]
+
 **Option One:** a link to a GitHub repository where you have created the code and saved the files.
 It may be a private repo, as long as you have added the instructor as a collaborator with view permissions. The repo URL may be provided via Canvas.
 
@@ -84,7 +87,7 @@ It may be a private repo, as long as you have added the instructor as a collabor
 These should all be in a directory containing python code in a `.py` or `.ipynb` file(s),
 a list of the items in the collection in a JSON file,
 the basic information for each item in the collection in a CSV file,
-and a directory with 62 JSON files[^1] representing each item in the collection.
+and a directory with JSON item files[^1] representing each item in the collection.
 
 ### Resources
 
