@@ -87,7 +87,7 @@ It may be a private repo, as long as you have added the instructor as a collabor
 These should all be in a directory containing python code in a `.py` or `.ipynb` file(s),
 a list of the items in the collection in a JSON file,
 the basic information for each item in the collection in a CSV file,
-and a directory with JSON item files[^1] representing each item in the collection.
+and a directory with JSON item files representing each item in the collection.
 
 ### Resources
 
@@ -101,4 +101,4 @@ and a directory with JSON item files[^1] representing each item in the collectio
 
 ### Notes
 
-[^1]: It's most likely that you will have a list of about 59 items in the end because not all of the items will produce a JSON file.
+[^1]: There are 62 items in the "Free to Use Libraries" set, but it's likely that you will have a list of about 59 items in the end because not all of the items will produce a JSON file.
