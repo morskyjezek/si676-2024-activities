@@ -78,7 +78,7 @@ collection-data
 #### Two Submission Options
 
 **Option One:** a link to a GitHub repository where you have created the code and saved the files.
-It may be a private repo, as long as you have added the instructor as a collaborator with view permissions.
+It may be a private repo, as long as you have added the instructor as a collaborator with view permissions. The repo URL may be provided via Canvas.
 
 **Option Two:** a zip file, uploaded on Canvas, that contains the extracted material in a directory.
 These should all be in a directory containing python code in a `.py` or `.ipynb` file(s),
