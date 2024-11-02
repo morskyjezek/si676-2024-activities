@@ -2,6 +2,7 @@
 layout: page
 title: Categories
 permalink: /categories/
+published: false
 ---
 
 <h2>Categories</h2>
