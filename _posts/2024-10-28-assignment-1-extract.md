@@ -92,11 +92,11 @@ and a directory with JSON item files representing each item in the collection.
 ### Resources
 
 * [Assignment description on Canvas][canvas-link]
-* [Example pulling a collection list from loc.gov][loc-gov-collection-demo]
+* [Example pulling a collection list from loc.gov][loc-gov-collection-list-demo]
 * [Example harvesting JSON item data from loc.gov][loc-gov-item-demo]
 
 [canvas-link]: https://umich.instructure.com/courses/698670/assignments/2472574
-[loc-gov-collection-demo]: http://TBD
+[loc-gov-collection-list-demo]: https://github.com/morskyjezek/si676-2024-data/blob/main/examples/assignment-extract-1-collection-list.ipynb
 [loc-gov-item-demo]: http://TBD
 
 ### Notes
