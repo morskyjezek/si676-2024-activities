@@ -6,4 +6,8 @@ layout: home
 list_title: All Content
 ---
 
-This page displays course activities (aka, "Labs"), keys, and guides. Use the links above to navigate to filtered views.
+This page displays information about all of the course activities, including:
+assignments (main steps in the course project sequence),
+occasional weekly activities (aka, "Labs"), answer keys to the labs,
+and guides about topics related to the assignments and labs.
+Use the links above to navigate to filtered views.
