@@ -4,6 +4,7 @@ title:  "Lab 2: File Navigation in the Shell"
 date:   2024-09-09
 due: 2024-09-15
 categories: activities shell labs
+canvas-link: https://umich.instructure.com/courses/698670/assignments/2472579
 ---
 
 ![Sample file tree]({{ site.url }}/assets/sample-file-tree.png)
@@ -35,7 +36,7 @@ For next week, aim to make sure you can create local repositories, connect them 
 ## Resources
 
 * [Accompanying slides][slides]
-* [Assignment page on canvas][canvas-link]
+* [Assignment page on canvas]({{ page.canvas-link }})
 
 [slides]: https://docs.google.com/presentation/d/1q-uz12RVq17JtYOtZ1wK7KwaACQhX4ai_tRYo1LYnBU/edit?usp=sharing
 [canvas-link]: https://umich.instructure.com/courses/698670/assignments/2472579
