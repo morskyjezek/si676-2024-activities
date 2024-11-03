@@ -46,7 +46,7 @@ to a new CSV file titled `ftu-libraries-set-list.csv`.
 You will use this file as a reference for your collection list.
 (If you want to see how this might look, here's a sample version: [Sample Collection List CSV file][sample-collection-list-csv] - GitHub will display a formatted table, but to see how this looks as a CSV in plain text format, click the "Raw" format button.)
 
-Hint: the "Free to Use Libraries" set should contain sixty two (62) items.
+Hint: the “Free to Use Libraries” set contains sixty two (62) items, but you may not be able to easily retrieve each one.
 
 ### 2. Harvest the metadata for each item in the collection
 
