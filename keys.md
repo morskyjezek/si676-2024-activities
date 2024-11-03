@@ -6,7 +6,7 @@ permalink: /keys/
 
 This page lists the key to the lab activities:
 
-{% assign keys_list = site.posts | where: "categories", "keys" %}
+{% assign keys_list = site.posts | where: "categories", "keys" | sort: due %}
 
 | Title and Link | Assigned Date | Due Date |
 | ------ | ------ | ------ |
