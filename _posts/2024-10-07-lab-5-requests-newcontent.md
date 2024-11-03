@@ -5,6 +5,7 @@ date:   2024-10-07
 assigned: 2024-10-07
 due: 2024-10-20
 categories: activities web collectionbuilder http requests python jekyll labs
+canvas-link: https://umich.instructure.com/courses/698670/assignments/2515067
 ---
 
 
@@ -107,8 +108,7 @@ To do this, you may use the [sample CSV template provided in the course data rep
 
 * [Collection Builder Guide]({{ site.url }}{% link _posts/2024-10-06-collectionbuilder-guide.md %})
 * [Jekyll Guide]({{ site.url }}{% link _posts/2024-09-27-jekyll-starter-guide.md %})
-* [Assignment page on canvas][canvas-link]
+* [Assignment page on canvas]({{ page.canvas-link }})
 
-[canvas-link]: https://umich.instructure.com/courses/698670/assignments/2515067
 [csv-template]: https://github.com/morskyjezek/si676-2024-data/blob/main/collection-project/cb-metadata-template.csv
 [sample-item-page]: https://morskyjezek.github.io/cb-test-turbo-octo-sniffle/items/nc_047.html
