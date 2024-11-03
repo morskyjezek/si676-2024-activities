@@ -5,6 +5,7 @@ date:   2024-09-16
 assigned: 2024-09-16
 due: 2024-09-29
 categories: activities web dns jekyll serverless labs
+canvas-link: https://umich.instructure.com/courses/698670/assignments/2472580
 ---
 
 
@@ -54,7 +55,6 @@ _Note: work on this over the next two weeks (due Sep 29)_
 ## Resources
 
 * [Accompanying slides][slides]
-* [Assignment page on canvas][canvas-link]
+* [Assignment page on canvas]({{ page.canvas-link }})
 
 [slides]: https://docs.google.com/presentation/d/1iSu3lnByhIsORFVL93oMJ-zAog23SaKpj_bo5VA4V70/edit?usp=sharing
-[canvas-link]: https://umich.instructure.com/courses/698670/assignments/2472580
