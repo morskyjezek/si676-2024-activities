@@ -70,7 +70,6 @@ collection-data
 │   ├── item-one-image.jpg
 │   ├── . . . all of the images
 │   └── item-sixty-two.jpg
-├── toy-bib-triples-valid.ttl
 └── item-metadata
     ├── item-one.json
     ├── . . . 59-62 items
@@ -100,7 +99,7 @@ and a directory with JSON item files representing each item in the collection.
 
 [loc-gov-collection-list-demo]: https://github.com/morskyjezek/si676-2024-data/blob/main/examples/assignment-extract-1-collection-list.ipynb
 [sample-collection-list-csv]: https://github.com/morskyjezek/si676-2024-data/blob/main/collection-project/collection_set_list-sample.csv
-[loc-gov-item-demo]: http://TBD
+[loc-gov-item-demo]: 
 
 ### Notes
 
