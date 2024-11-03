@@ -6,7 +6,7 @@ permalink: /labs/
 
 This page lists the lab activities:
 
-{% assign labs_list = site.posts | where: "categories", "labs" %}
+{% assign labs_list = site.posts | where: "categories", "labs" | sort: due %}
 
 | Title and Link | Due Date |
 | ------ | ------ |
