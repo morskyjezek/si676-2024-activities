@@ -39,4 +39,3 @@ For next week, aim to make sure you can create local repositories, connect them 
 * [Assignment page on canvas]({{ page.canvas-link }})
 
 [slides]: https://docs.google.com/presentation/d/1q-uz12RVq17JtYOtZ1wK7KwaACQhX4ai_tRYo1LYnBU/edit?usp=sharing
-[canvas-link]: https://umich.instructure.com/courses/698670/assignments/2472579
