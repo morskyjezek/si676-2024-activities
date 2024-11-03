@@ -8,7 +8,7 @@ This page lists the lab activities:
 
 {% assign labs_list = site.posts | where: "categories", "labs" | sort: due %}
 
-| Title and Link | Due Date |
-| ------ | ------ |
-{% for lab in labs_list %}| [{{ lab.title }}]({{ lab.url | relative_url }}) | {{ lab.due | date: "%e %B %Y" | lstrip }} |
+| Title and Link | Due Date | Canvas link |
+| -------- | ---- | -- |
+{% for lab in labs_list %}| [{{ lab.title }}]({{ lab.url | relative_url }}) | {{ lab.due | date: "%e %B %Y" | lstrip }} | [Canvas link]({{ lab.canvas-link }}) |
 {% endfor %}
