@@ -5,6 +5,7 @@ date:   2024-10-01
 assigned: 2024-09-30
 due: 2024-10-07
 categories: activities web jekyll collectionbuilder labs
+canvas-link: https://umich.instructure.com/courses/698670/assignments/2512777
 ---
 
 
@@ -26,6 +27,4 @@ unless you want to experiment with adding objects and metadata of your own.
 ## Resources
 
 * [Jekyll Guide]({{ site.url }}{% link _posts/2024-09-27-jekyll-starter-guide.md %})
-* [Assignment page on canvas][canvas-link]
-
-[canvas-link]: https://umich.instructure.com/courses/698670/assignments/2512777
+* [Assignment page on canvas]({{ page.canvas-link }})
