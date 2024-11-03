@@ -72,7 +72,7 @@ collection-data
 │   └── item-sixty-two.jpg
 └── item-metadata
     ├── item-one.json
-    ├── . . . 59-62 items
+    ├── . . . all the metadata
     └── item-sixty-two.json
 ```
 
