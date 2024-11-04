@@ -5,6 +5,7 @@ date:   2024-09-09
 due: 2024-09-15
 categories: activities shell labs
 canvas-link: https://umich.instructure.com/courses/698670/assignments/2472579
+key: lab-2-key
 ---
 
 ![Sample file tree]({{ site.url }}/assets/sample-file-tree.png)

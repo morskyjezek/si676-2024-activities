@@ -6,6 +6,7 @@ assigned: 2024-09-16
 due: 2024-09-29
 categories: activities web dns jekyll serverless labs
 canvas-link: https://umich.instructure.com/courses/698670/assignments/2472580
+key: lab-3-key
 ---
 
 

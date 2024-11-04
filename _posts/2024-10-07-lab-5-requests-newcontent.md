@@ -6,6 +6,7 @@ assigned: 2024-10-07
 due: 2024-10-20
 categories: activities web collectionbuilder http requests python jekyll labs
 canvas-link: https://umich.instructure.com/courses/698670/assignments/2515067
+key: lab-5-key
 ---
 
 
