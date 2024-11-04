@@ -2,7 +2,7 @@
 layout: post
 title:  "Logging In to Your Server"
 date:   2024-11-04
-categories: guides servers omekas cpanel ssh
+categories: guides servers omekas cpanel ssh filezilla
 ---
 
 This page describes how to log in to your LAMP servers.
