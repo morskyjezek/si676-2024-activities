@@ -44,7 +44,7 @@ When you navigate to your server's URL with a browser, you should see something 
 
 ![Blank server page]({{ site.url }}/assets/blank-server-page.jpg "Screenshot of blank LAMP server viewed by web browser"){:style="border: 1px solid black;"}
 
-## Logging in to cPanel
+## Logging in to cPanel {#cpanel}
 
 Log in to cPanel at your server using port 2083.
 
@@ -56,7 +56,7 @@ Log in to cPanel at your server using port 2083.
 
 ![cPanel login via port 2083]({{ site.url }}/assets/cpanel-login-port2083.jpg "Screenshot of cPanel login page at port 2083"){:style="border: 1px solid black;"}
 
-## SSH via the Terminal
+## SSH via the Terminal {#ssh}
 
 To log in with the SSH (Secure SHell), open the client that you use for command shell (e.g., Terminal, GitBash, or other). The command to access your server is `ssh` (secure shell).
 To use this command, use the following syntax:
@@ -71,19 +71,32 @@ For `umsifan`, the command would look like this:
 ssh umsifan@umsifan.si676.si.umich.edu
 ```
 
+The command ready to execute in the terminal:
+
+![ssh login via terminal]({{ site.url }}/assets/shell-ssh-login.jpg "Screenshot of a command shell window with the SSH login command ready to run"){:style="border: 1px solid black;"}
+
 When you run the command, you will be prompted for your password.
-This is your UMID. The login screen should look something like this:
-
-![ssh login via terminal]({{ site.url }}/assets/.jpg "Screenshot of cPanel login page at port 2083"){:style="border: 1px solid black;"}
-
-
 When you type the password, you will not see the response,
 which can make it difficult to know if you have typed the right information.
-But type carefully, then press enter. If your login is successful, you'll see a page something like this:
+But type carefully, then press enter. If your login is successful, you should see a page notifying you of University of Michigan's IT policies, which will also ask you to select a dual-factor login method. Use the method that you are most comfortable with.
 
-**SSH Notes:** 
+![ssh dual factor authentication]({{ site.url }}/assets/ssh-login-dualfactor.jpg "Screenshot of a command shell window requesting dual factor authentication"){:style="border: 1px solid black;"}
+
+Note the dual factor option can time out. So if you are not logged in, try again. 
+
+Finally, you'll see a page something like this, which indicates you have logged in to your server:
+
+![ssh server logged in]({{ site.url }}/assets/ssh-logged-in.jpg "Screenshot of a command shell window logged in to the server at the root location"){:style="border: 1px solid black;"}
+
+From this page, you should be able to navigate and use basic Bash commands.
+The most frequent location you will need to access here is the `public_html` directory,
+which is where HTTP-accessible files will be located.
+
+**SSH Notes:**
 
 * If you incorrectly enter your password more than three times, the server will be inaccessible for 10 minutes
-* 
+* You may not be able to log in from off campus unless you are using the U-M VPN since access is restricted by IP range for security purposes
 
-## FileZilla for File Management (FTP)
+## FileZilla for File Management (FTP) {#filezilla}
+
+Logging in to FTP (File Transfer Protocol) using Filezilla.
