@@ -16,7 +16,6 @@ This page contains the information for *{{ page.title }}*.
 2. What is the advantage of aliasing a library? Why import the ElementTree module using `import xml.etree.ElemenTree as ET` rather than the basic import statement?
 3. Write a code block that loads the EAD finding aid in the course repo (`/data/xml/day_20221004_205435_UTC__ead.xml`). Parse the tree and extract the `archdesc` element. What are the subelements? This builds on the assignment we used in class (`archDesc = root.find('archdesc')`) and then you can develop a loop `like for element in` archdesc to explore further. (See the section in class exploring the `control` element.)
 4. How do you work with prefixed namespaces in the ET module? How do you assign prefixes for use within path addresses? How do you assign namespaces for writing out a valid XML with namespace declarations and prefixes?
-5. Write a code block that adds new attributes to two or more elements in the mock-up superior-papers.xml file. Write out the file with the appropriately included XML declaration and namespace declarations for the EAD3 schema.
 
 ## Resources
 
