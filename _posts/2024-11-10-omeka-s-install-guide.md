@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Omeka S Install Guide"
-date:   2024-11-11
+date:   2024-11-10
 categories: guides omeka
 ---
 
