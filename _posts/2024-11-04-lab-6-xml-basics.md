@@ -6,6 +6,7 @@ assigned: 2024-11-04
 due: 2024-11-10
 categories: activities xml xpath labs
 canvas-link: https://umich.instructure.com/courses/698670/assignments/2472584
+key: lab-6-key
 ---
 
 This page contains the information for *{{ page.title }}*.
