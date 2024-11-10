@@ -38,6 +38,8 @@ These instructions assume that you already have a working Omeka S instance, and 
   - _Note: you may consider adding other vocabulary namespaces, but for this to happen smoothly with Omeka, any vocabulary you choose will need to be expressed in a standard linked data format specification (like RDF)._
 7. Create at least one site (Omeka S allows you to administer multiple sites/collections)
   - Create an about page, with at least one image asset attached and a descriptive statement.
+
+
 <!--
 8. To complete the assignment: Share the link and login information to the site as your assignment for course assignment number 2. Via Canvas.
 -->
