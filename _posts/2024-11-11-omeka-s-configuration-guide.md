@@ -5,13 +5,13 @@ date:   2024-11-11
 categories: guides omeka
 ---
 
-This page describes how to configure Omeka S. Before taking these steps, you need to [install and set up Omeka S on your server]({% link _posts/2024-11-11-omeka-s-install-guide.md %})
+This page describes how to configure Omeka S. Before taking these steps, you need to [install and set up Omeka S on your server]({% link _posts/2024-11-10-omeka-s-install-guide.md %})
 
 ## Configuring Omeka S
 
 These instructions also explain the main steps you must take to complete assignment #2 (see last step).  
 
-These instructions assume that you already have a working Omeka S instance, and that you know how to sign in to your server. (Those steps were covered [in the install guide]({% link _posts/2024-11-11-omeka-s-install-guide.md %}).)
+These instructions assume that you already have a working Omeka S instance, and that you know how to sign in to your server. (Those steps were covered [in the install guide]({% link _posts/2024-11-10-omeka-s-install-guide.md %}).)
 
 1. Make sure that you write down and save somewhere your cPanel login credentials. 
 2. You will receive an email from the Omeka S installation. Save that, and also save your login credentials. Keep all of these items in a place where you can find them and where they are relatively safe.
@@ -46,6 +46,6 @@ These instructions assume that you already have a working Omeka S instance, and 
 
 * [Related slide deck illustrating the login process][related-slide-deck]
 * [Guide to logging in to your server]({% link _posts/2024-11-04-logging-in-to-your-server.md %})
-* [Guide to Installing Omeka S on Your Server]({% link _posts/2024-11-11-omeka-s-install-guide.md %})
+* [Guide to Installing Omeka S on Your Server]({% link _posts/2024-11-10-omeka-s-install-guide.md %})
 
 [related-slide-deck]: TBD
