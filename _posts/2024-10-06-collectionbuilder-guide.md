@@ -18,7 +18,7 @@ idea about what these various fields are, where they are displayed on the site,
 and some general conventions or usage guidelines.
 This section offers some more detailed information about these aspects of CollectionBuilder metadata.
 
-![CollectionBuilder item page]({{ site.url }}/assets/cb-item-page.jpg)
+![CollectionBuilder item page]({{ site.url }}{{ site.baseurl }}/assets/cb-item-page.jpg)
 
 Note above that the metadata elements for the still image shown largely match
 DublinCore fields. This shows that most digital objects in CollectionBuilder can be displayed and managed with standard descriptive metadata elements based on DublinCore.
