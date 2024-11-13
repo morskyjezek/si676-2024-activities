@@ -100,12 +100,6 @@ After the file transfer process is complete, you should be able to navigate in t
 
 If you are seeing a page like the one above, then your Omeka S instance should be ready to go. The final steps are to configure Omeka S by creating a first user and setting a few fundamental properties for your install of Omeka S. Do this by filling in the form and clicking the “Submit” button at the bottom of the page.
 
-## Install Omeka S with Softaculous {#softaculous}
-
-Many hosted server configurations provide a tool called Softaculous. Softaculous is a software tool that will take care of the installation of many different types of open-source web systems, like Wordpress, MediaWiki, Drupal, and other systems. It basically configures the LAMP stack for these platforms by installing all of the controller files (usually PHP, but may be another controller language), initializing the necessary databases to store data (MySQL), and connecting these to the web server (Apache).
-
-This tools provides a more "point and click" or "one-click install" process. For the purposes of getting more familiar and comfortable with your servers, we do not have access to Softaculous. But know that if you ever find yourself in the position of installing a Web-based service like this, you will probably have access to other tools that simplify the install process.
-
 ## Resources
 
 * [Related slide deck illustrating the login process][related-slide-deck]
