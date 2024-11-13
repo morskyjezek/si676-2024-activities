@@ -41,5 +41,5 @@ Additional modules can be added by following the same steps with any zipped pack
 
 ## Resources
 
-* [Omeka S Configuration Guide]({% post_url 2024-11-11-omeka-s-configuration-guide %})
-* [Omeka S Installation Guide]({% post_url 2024-11-10-omeka-s-install-guide %})
+* [Omeka S Configuration Guide]({{ site.baseurl }}{% post_url 2024-11-11-omeka-s-configuration-guide %})
+* [Omeka S Installation Guide]({{ site.baseurl }}{% post_url 2024-11-10-omeka-s-install-guide %})
