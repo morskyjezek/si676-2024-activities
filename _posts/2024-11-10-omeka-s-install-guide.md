@@ -96,13 +96,15 @@ After the file transfer process is complete, you should be able to navigate in t
 
 ![Install Omeka S - first user]({{ site.url }}{{ site.baseurl }}/assets/omekas-firstuser.jpg "Install Omeka S - first user"){:style="border: 1px solid black;"}
 
-### Configure Omeka S
+### Omeka S is Ready to Go
 
-If you are seeing a page like the one above, then your Omeka S instance should be ready to go. The final steps are to configure Omeka S by creating a first user and setting a few fundamental properties for your install of Omeka S. Do this by filling in the form and clicking the “Submit” button at the bottom of the page.
+If you are seeing a page like the one above, then your Omeka S instance should be ready to go. To get started, fill in the initial user form and click the “Submit” button at the bottom of the page.
+
+The final steps are to configure Omeka S with new sites, modules, users, and the collection content. To get started on that, the next step is [Omeka S configuration]({% link _posts/omeka-s-configuration-guide.md %}).
 
 ## Resources
 
-* [Related slide deck illustrating the login process][related-slide-deck]
+* [Related slide deck illustrating the Omeka S install process][related-slide-deck]
 * [Guide to logging in to your server]({% link _posts/2024-11-04-logging-in-to-your-server.md %})
 
-[related-slide-deck]: TBD
+[related-slide-deck]: 
