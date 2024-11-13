@@ -107,4 +107,4 @@ The final steps are to configure Omeka S with new sites, modules, users, and the
 * [Related slide deck illustrating the Omeka S install process][related-slide-deck]
 * [Guide to logging in to your server]({% link _posts/2024-11-04-logging-in-to-your-server.md %})
 
-[related-slide-deck]: 
+[related-slide-deck]: https://docs.google.com/presentation/d/13dsV_zzjydT2sm4ogyIRCyL17aZDw1BX2O5oLEZ1yPk/edit?usp=sharing
