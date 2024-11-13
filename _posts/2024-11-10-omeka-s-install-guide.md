@@ -9,7 +9,8 @@ This page describes how to set up Omeka S on your servers.
 
 ## Installing Omeka S Manually
 
-This is a multi-step process. For full disclosure, know that it is unlikely you would have to install a tool like this in this way (a more likely scenario is that a program has a helper install tool; see the section below "[Install Omeka S with Softaculous](#softaculous)"). That said, installing thai way helps you to understand the overall architecture of the LAMP server, how to interact with the different elements (in this step, particularly the file system - LINUX - and databases - MySQL). The server is handling the HTTP requests and tasks that display the cPanel interface (so you are also interacting via the Apache element), and any of the interactions between the platform components are likely communicating to the databases via PHP, but for the moment you won’t need to worry about those elements.
+This is a multi-step process. In case you were wondering, it is unlikely you would have to install the tools in this way (a more likely scenario is that your server has a helper install tool; one common one is called Softaculous). Even so, installing this way helps you to understand the overall architecture of the LAMP server, how the different elements interact (in this step, particularly the file system - LINUX - and databases - MySQL). The Apache server is handling the HTTP requests and tasks that display the cPanel interface, and any of the interactions between the platform components are likely communicating to the databases via PHP.
+For the most part, though, you don’t need to worry about how those components interact once this installation step is completed.
 
 The manual install process has a few main steps:
 1. Get the server ready.
@@ -48,19 +49,19 @@ There are various ways to do this, but for ease of use (and also because this is
 
 To do this, click on “MySQL Databases” under “Databases” in cPanel. In the databases tool, you will complete the form for “Create New Database,” which is where you should type the name of the database that you want, then click on “Create Database.” The name you choose will be appended to your username after an underscore, and in a sense is like a namespace, providing a unique alias for your database even though there are likely thousands of database tables out there named omeka. It will look something like this, if you wanted to create a new database named `jajohnst_new_omeka_db`:
 
-![Creating a new database for your Omeka S install]({{ site.url }}/assets/omeka-newdbs.jpg "Creating a new database for your Omeka S install"){:style="border: 1px solid black;"}
+![Creating a new database for your Omeka S install]({{ site.url }}{{ site.baseurl }}/assets/omeka-newdbs.jpg "Creating a new database for your Omeka S install"){:style="border: 1px solid black;"}
 
 #### Create a database User Agent (username and password)
 
 Scrolling down in the databases tool, create a username and password combination. You won’t need to use this frequently, but you will need to enter the pair in your .ini file, so make note of the username and password that you create. You are essentially creating credentials for a local “user agent,” which will interact with the databases on behalf of Omeka S. If you want to randomly generate a password, use the “Password Generator” button or try an online tool like [https://www.avast.com/en-us/random-password-generator#mac](https://www.avast.com/en-us/random-password-generator#mac). Remember when you create the password, write it down or copy it to a safe place before proceeding. You will need to reuse it later.
 
-![Creating a new user agent for your database]({{ site.url }}/assets/omekas-db_user.jpg "Creating a new user agent for your database"){:style="border: 1px solid black;"}
+![Creating a new user agent for your database]({{ site.url }}{{ site.baseurl }}/assets/omekas-db_user.jpg "Creating a new user agent for your database"){:style="border: 1px solid black;"}
 
 #### Assign the user to the database
 
 Finally, assign the user to the database. This makes use of the “Add User to Database” section of the database tools. Here, select the user you created, then select the database, and click “Add.” In the screen that follows, select all of the permissions (you want this user to be able to do all the things with the databases that Omeka S will need!):
 
-![Adding user to the database]({{ site.url }}/assets/omekas-assignuserdb.jpg "Adding user to the database"){:style="border: 1px solid black;"}
+![Adding user to the database]({{ site.url }}{{ site.baseurl }}/assets/omekas-assignuserdb.jpg "Adding user to the database"){:style="border: 1px solid black;"}
 
 ### Download Omeka S
 
@@ -74,7 +75,7 @@ After you’ve looked around, **find the file `database.ini` in the folder `conf
 
 You can open this file as a plain text file using VSCode, or any other text editor. When you open the file, it should look like this:
 
-![Configure the database connection]({{ site.url }}/assets/omekas-assignuserdb.jpg "Configure the database connection"){:style="border: 1px solid black;"}
+![Configure the database connection]({{ site.url }}{{ site.baseurl }}/assets/omekas-assignuserdb.jpg "Configure the database connection"){:style="border: 1px solid black;"}
 
 Enter the information from the database that you previously created on the server. This will vary based on the names that you chose, the host name should always be “localhost”. Thus, the information should look something like this, if your user was `omekas_db123`:
 
@@ -93,7 +94,7 @@ Once the file is saved, use FileZilla to transfer all of the files and the direc
 
 After the file transfer process is complete, you should be able to navigate in the browser to your server’s URL, and then add the name of the Omeka S directory at the end to display the Omeka S interface. It will look something like this:
 
-![Install Omeka S - first user]({{ site.url }}/assets/omekas-firstuser.jpg "Install Omeka S - first user"){:style="border: 1px solid black;"}
+![Install Omeka S - first user]({{ site.url }}{{ site.baseurl }}/assets/omekas-firstuser.jpg "Install Omeka S - first user"){:style="border: 1px solid black;"}
 
 ### Configure Omeka S
 
