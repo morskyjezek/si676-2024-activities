@@ -12,7 +12,7 @@ but before you can follow those steps, you’ll need to add ("import") the modul
 to your server. That is, find the source code files, copy them, get them onto your server,
 and put them where Omeka will look to find them.
 
-This guide demonstrates the process of adding files to your server 
+This guide demonstrates the process of adding files to your server
 with a combination of tools, namely `ssh` (a command line interface to your server’s OS)
 and FileZilla (a graphical interface that provides secure access and aids the process of moving files between drives, in this case from your local drive to your server.
 
