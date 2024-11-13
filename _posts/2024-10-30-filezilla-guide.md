@@ -19,7 +19,7 @@ The Filezilla software is available at Campus Computing sites and is also availa
 for a 30-day trial version if you wish to download it on your own computer
 (see the [Filezilla site for download information](https://filezilla-project.org/download.php)).
 
-![Filezilla client window]({{ site.url }}/assets/filezilla-main-window-macos.jpg "Screenshot of the Filezilla client with main areas highlighted"){:style="border: 1px solid black;"}
+![Filezilla client window]({{ site.url }}{{ site.baseurl }}/assets/filezilla-main-window-macos.jpg "Screenshot of the Filezilla client with main areas highlighted"){:style="border: 1px solid black;"}
 
 In the above screenshot, take note of the three main parts of the window.
 In the area of rectangle 1., you can see the current status of the connection, any file transfers that you execute, and sometimes useful updates as to what Filezilla is doing.
