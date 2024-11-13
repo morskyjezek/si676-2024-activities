@@ -22,7 +22,7 @@ These instructions assume that you already have a working Omeka S instance, and 
   - Keep a list of all the users, associated emails, and for those accounts you control, passwords.
   - I recommend a password manager (for all but the most sensitive login credentials), if you don’t already use one (Chrome and other web browsers typically have this built in; also, there are extensions you can install for most browsers that will help to generate random, secure passwords.)
 4. Create a user for Jesse Johnston (supervisor level), using the email `jajohnst@umich.edu`.
-5. Add in modules (we will go over the process in class, it involves FileZilla and SSH, and [it is explained here]({% link _posts/2024-11-13-adding-omeka-s-modules.md %)):
+5. Add in modules (we will go over the process in class, it involves FileZilla and SSH, and [is explained in the Omeka S Modules guide]({% link _posts/2024-11-13-adding-omeka-s-modules.md %})):
   - [CSV Import module](https://omeka.org/s/modules/CSVImport/)
   - [OAI-PMH Repository module](https://omeka.org/s/modules/OaiPmhRepository/)
   - [Numeric data types module](https://omeka.org/s/modules/NumericDataTypes/)
@@ -40,12 +40,11 @@ These instructions assume that you already have a working Omeka S instance, and 
 7. Create at least one site (Omeka S allows you to administer multiple sites/collections)
   - Create an about page, with at least one image asset attached and a descriptive statement.
 
-
 ## Resources
 
 * [Related slide deck illustrating the login process][related-slide-deck]
 * [Guide to logging in to your server]({% link _posts/2024-11-04-logging-in-to-your-server.md %})
 * [Guide to Installing Omeka S on Your Server]({% link _posts/2024-11-10-omeka-s-install-guide.md %})
-* [Assignment Submission on Canvas]({{ page.canvas-link }})
+* [Assignment 2b Submission on Canvas]({{ page.canvas-link }})
 
-[related-slide-deck]: 
+[related-slide-deck]: TBD
