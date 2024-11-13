@@ -13,7 +13,7 @@ These instructions also explain the main steps you must take to complete assignm
 
 These instructions assume that you already have a working Omeka S instance, and that you know how to sign in to your server. (Those steps were covered [in the install guide]({% link _posts/2024-11-10-omeka-s-install-guide.md %}).)
 
-1. Make sure that you write down and save somewhere your cPanel login credentials. 
+1. Make sure that you write down and save somewhere your cPanel login credentials.
 2. You will receive an email from the Omeka S installation. Save that, and also save your login credentials. Keep all of these items in a place where you can find them and where they are relatively safe.
   - For example, use the write it down in a notebook method
   - Or, pdf your emails and keep them in a folder on your computer.
@@ -21,7 +21,7 @@ These instructions assume that you already have a working Omeka S instance, and 
   - Keep a list of all the users, associated emails, and for those accounts you control, passwords.
   - I recommend a password manager (for all but the most sensitive login credentials), if you don’t already use one (Chrome and other web browsers typically have this built in; also, there are extensions you can install for most browsers that will help to generate random, secure passwords.)
 4. Create a user for Jesse Johnston (supervisor level), using the email `jajohnst@umich.edu`.
-5. Add in modules (we will go over the process in class, it involves FileZilla and SSH, and [it is explained here](ADD LINK)):
+5. Add in modules (we will go over the process in class, it involves FileZilla and SSH, and [it is explained here]({% link _posts/2024-11-13-adding-omeka-s-modules.md %)):
   - CSV Import module
   - OAI-PMH Repository module
   - Numeric data types module
