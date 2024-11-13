@@ -3,6 +3,7 @@ layout: post
 title:  "Omeka S Configuration Guide"
 date:   2024-11-11
 categories: guides omeka
+canvas-link: https://umich.instructure.com/courses/698670/assignments/2472573
 ---
 
 This page describes how to configure Omeka S. Before taking these steps, you need to [install and set up Omeka S on your server]({% link _posts/2024-11-10-omeka-s-install-guide.md %})
@@ -22,32 +23,29 @@ These instructions assume that you already have a working Omeka S instance, and 
   - I recommend a password manager (for all but the most sensitive login credentials), if you don’t already use one (Chrome and other web browsers typically have this built in; also, there are extensions you can install for most browsers that will help to generate random, secure passwords.)
 4. Create a user for Jesse Johnston (supervisor level), using the email `jajohnst@umich.edu`.
 5. Add in modules (we will go over the process in class, it involves FileZilla and SSH, and [it is explained here]({% link _posts/2024-11-13-adding-omeka-s-modules.md %)):
-  - CSV Import module
-  - OAI-PMH Repository module
-  - Numeric data types module
-  - Custom vocabularies module
-  - Value suggest module
-  - Possibly additional modules, as you desire, or as needs become apparent throughout the process, for example
-    - Extract metadata module
+  - [CSV Import module](https://omeka.org/s/modules/CSVImport/)
+  - [OAI-PMH Repository module](https://omeka.org/s/modules/OaiPmhRepository/)
+  - [Numeric data types module](https://omeka.org/s/modules/NumericDataTypes/)
+  - [Custom vocabularies module](https://omeka.org/s/modules/CustomVocab/)
+  - [Value suggest module](https://omeka.org/s/modules/ValueSuggest/)
+  - Possibly additional modules, as you desire, or as needs become apparent throughout the process, for example:
+    - [Extract metadata module](https://omeka.org/s/modules/ExtractMetadata/)
 6. Add at least one additional vocabulary. For starters, use MODS ([Metadata Object Description Schema](https://www.loc.gov/standards/mods)). Use the “Vocabularies” option in the left menu, choose the “Import New Vocabulary”, then:
   - Name/Label: `MODS 1`
   - Namespace URI: `http://www.loc.gov/mods/rdf/v1`
   - Namespace prefix: `mods`
   - Vocabulary URL: `https://www.loc.gov/mods/modsrdf/v1/modsrdf.owl`
-  - File format: RDF/XML
-  - _Note: you may consider adding other vocabulary namespaces, but for this to happen smoothly with Omeka, any vocabulary you choose will need to be expressed in a standard linked data format specification (like RDF)._
+  - File format: `RDF/XML`
+  - _Note: you may consider adding other vocabulary namespaces, but for this to happen smoothly with Omeka, any vocabulary you choose will need to be expressed in a standard linked data format specification (like RDF or OWL)._
 7. Create at least one site (Omeka S allows you to administer multiple sites/collections)
   - Create an about page, with at least one image asset attached and a descriptive statement.
 
-
-<!--
-8. To complete the assignment: Share the link and login information to the site as your assignment for course assignment number 2. Via Canvas.
--->
 
 ## Resources
 
 * [Related slide deck illustrating the login process][related-slide-deck]
 * [Guide to logging in to your server]({% link _posts/2024-11-04-logging-in-to-your-server.md %})
 * [Guide to Installing Omeka S on Your Server]({% link _posts/2024-11-10-omeka-s-install-guide.md %})
+* [Assignment Submission on Canvas]({{ page.canvas-link }})
 
-[related-slide-deck]: TBD
+[related-slide-deck]: 
