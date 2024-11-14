@@ -54,7 +54,7 @@ The script should print out the results to the terminal or in the Jupyter notebo
 ## Part Two: Adding Content to Your CB Collection Site
 
 The second part of this assignment builds on the collection sites you created last week.
-You should use the site you created in [last week's lab]({% link _posts/2024-10-01-lab-4-collectionbuilder.md %}).
+You should use the site you created in [last week's lab]({{ site.baseurl }}{% link _posts/2024-10-01-lab-4-collectionbuilder.md %}).
 
 Your task is to gather the components for the five digital items represented by
 the following URIs located at the Library of Congress's namespace (i.e., `loc.gov`):
