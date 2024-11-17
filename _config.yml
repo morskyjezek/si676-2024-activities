@@ -21,9 +21,11 @@
 title: SI 676 Activities
 email: jajohnst@umich.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  This site is publishing from a GitHub repo, which will contain 
-  information about the activities and assignments for SI 676 
+  This site contains information about 
+  activities and assignments for SI 676 
   in the Fall 2024 term.
+  The site is published using the Jekyll static site generator
+  from GitHub.
 baseurl: "/si676-2024-activities" # the subpath of your site, e.g. /blog
 url: "https://morskyjezek.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jesseajohnston
