@@ -31,6 +31,7 @@ url: "https://morskyjezek.github.io" # the base hostname & protocol for your sit
 twitter_username: jesseajohnston
 github_username:  morskyjezek
 course_data_repo_link: https://github.com/morskyjezek/si676-2024-data/tree/main
+site_jekyll_files: https://github.com/morskyjezek/si676-2024-activities
 
 # Build settings
 theme: minima
