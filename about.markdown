@@ -24,5 +24,10 @@ which are organized and created by the site creator to
 provide content and structure for an HTML site that
 is published to the Web.
 
+## Course Resources
+
+* [GitHub repository for the files to create this site]({{ site.site_jekyll_files }})
+* [Accompanying Data Files]({{ site.course_data_repo_link }})
+
 [syllabus]: https://docs.google.com/document/d/12okpn0kAPnvhalat6infvIYm6F2ejX0_fhNt93H0slg/edit?usp=sharing
 [instructor]: https://www.si.umich.edu/people/jesse-johnston
