@@ -18,3 +18,9 @@ provide content and structure for an HTML site that
 is published to the Web.
 
 The site is published at https://morskyjezek.github.io/si676-2024-activities/.
+
+## License
+
+Content on this site may be repurposed or modified with credit and as long as subsequent versions are openly shared.
+
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
