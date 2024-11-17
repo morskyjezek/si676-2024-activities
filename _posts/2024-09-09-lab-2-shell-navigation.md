@@ -8,7 +8,7 @@ canvas-link: https://umich.instructure.com/courses/698670/assignments/2472579
 key: lab-2-key
 ---
 
-![Sample file tree]({{ site.url }}/assets/sample-file-tree.png)
+![Sample file tree]({{ site.url }}{{ site.baseurl }}/assets/sample-file-tree.png)
 
 Download the GitHub repo with sample files (as demonstrated in class), and then provide the shell commands that you would use to accomplish the following. Assume that command one begins when you are located in the directory called data. Note that the directory "data" should already exist in the repo files that you have downloaded from GitHub (it does contain some files and directories, but you will not need those for this exercise.)
 
