@@ -22,14 +22,10 @@ These instructions assume that you already have a working Omeka S instance, and 
   - Keep a list of all the users, associated emails, and for those accounts you control, passwords.
   - I recommend a password manager (for all but the most sensitive login credentials), if you don’t already use one (Chrome and other web browsers typically have this built in; also, there are extensions you can install for most browsers that will help to generate random, secure passwords.)
 4. Create a user for Jesse Johnston (supervisor level), using the email `jajohnst@umich.edu`.
-5. Add in modules (we will go over the process in class, it involves FileZilla and SSH, and [is explained in the Omeka S Modules guide]({{ site.baseurl }}{% link _posts/2024-11-13-adding-omeka-s-modules.md %})):
+5. Add in modules (we will go over the process in class, it involves FileZilla and SSH, and [is explained in the Omeka S Modules guide]({{ site.baseurl }}{% link _posts/2024-11-13-adding-omeka-s-modules.md %})). You must add:
   - [CSV Import module](https://omeka.org/s/modules/CSVImport/)
+  - [Common](https://omeka.org/s/modules/Common/) - a helper module
   - [OAI-PMH Repository module](https://omeka.org/s/modules/OaiPmhRepository/)
-  - [Numeric data types module](https://omeka.org/s/modules/NumericDataTypes/)
-  - [Custom vocabularies module](https://omeka.org/s/modules/CustomVocab/)
-  - [Value suggest module](https://omeka.org/s/modules/ValueSuggest/)
-  - Possibly additional modules, as you desire, or as needs become apparent throughout the process, for example:
-    - [Extract metadata module](https://omeka.org/s/modules/ExtractMetadata/)
 6. Add at least one additional vocabulary. For starters, use MODS ([Metadata Object Description Schema](https://www.loc.gov/standards/mods)). Use the “Vocabularies” option in the left menu, choose the “Import New Vocabulary”, then:
   - Name/Label: `MODS 1`
   - Namespace URI: `http://www.loc.gov/mods/rdf/v1`
