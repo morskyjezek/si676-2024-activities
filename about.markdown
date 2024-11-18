@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-This site includes information about the weekly activities, 
+This site includes information about the weekly activities,
 solutions to "lab" problems when they are assigned,
 and other public resources related to SI 676.
 
