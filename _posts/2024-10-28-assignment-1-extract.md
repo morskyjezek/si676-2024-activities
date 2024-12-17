@@ -76,10 +76,12 @@ collection-data
     └── item-sixty-two.json
 ```
 
-#### Two Submission Options
+#### Note
 
-**Note:** while the set has sixty two items, it may not be possible to harvest each item's metadata.
+While the set has sixty two items, it may not be possible to harvest each item's metadata.
 In that case, you can skip problematic items. But you should get the majority, at least fifty five or more items.[^1]
+
+### Two Submission Options
 
 **Option One:** a link to a GitHub repository where you have created the code and saved the files.
 It may be a private repo, as long as you have added the instructor as a collaborator with view permissions. The repo URL may be provided via Canvas.
